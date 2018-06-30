@@ -1,0 +1,7 @@
+
+ gcc hello.m `gnustep-config --objc-flags` -lgnustep-base -lobjc -o hello
+
+OS X:
+cc -c hello.m
+cc hello.o -lobjc -framework Foundation -o hello
+./hello

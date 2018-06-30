@@ -1,0 +1,3 @@
+
+/opt/rust/bin/rustc -o hello hello.rs
+
